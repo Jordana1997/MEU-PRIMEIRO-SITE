@@ -1,0 +1,254 @@
+/*geral*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #5f2d91ea;
+}
+
+a {
+  color: #5D16A6;
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  background: #F7B801;
+  height: 2px;
+  width: 20%;
+  margin: 20px auto;
+}
+
+p {
+  line-height: 22px;
+  padding: 0 10px;
+}
+
+.section_titulo {
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/*menu*/
+.menu_bg {
+  background-color: white;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: espace-between;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+
+}
+
+.menu_LOGO {
+  margin: 10px;
+}
+
+/*lista*/
+.na_lista {
+  flex-wrap: wrap;
+}
+
+.nav_link {
+  padding: 20px 10px;
+}
+
+/*introduçao*/
+.intro {
+  color: #1a1e24;
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+/*sobre mim*/
+.sobre {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sobre-c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+
+.sobre-c_texto {
+  flex: 6 1 160px;
+
+}
+
+.sobre-c_img {
+  flex: 1 1 360px;
+}
+
+/*trabalho*/
+.curso {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.curso-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.curso {
+  width: 280px;
+  margin: 20px;
+}
+
+.curso-titulo {
+  font-weight: 350;
+  font-size: 1, 5rem;
+  text-align: center;
+  margin: 10px 0 5px 0;
+}
+
+/*experiencias*/
+.experiencia {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.exp {
+  max-width: 240px;
+  margin: 10px;
+
+}
+
+.exp_titulo {
+  font-weight: 300;
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.exp_titulo::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.exp:nth-last-of-type(3n+1) .exp_titulo::before {
+  background: white;
+}
+
+.exp:nth-last-of-type(3n+2) .exp_titulo::before {
+  background: white;
+}
+
+.exp:nth-last-of-type(3n+3) .exp_titulo::before {
+  background: white;
+}
+
+/*@media (max-width:800px) .exp {
+  max-width: 220px;
+
+}*/
+
+/*contato*/
+.contate-me {
+  background-color: white;
+  color: black;
+}
+
+.contato-c {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contato-info {
+  flex: 1 1 260px;
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+.contato-info_titulo {
+  font-size: 2.50rem;
+  font-weight: bold;
+}
+
+.contato-info_descricao {
+  font-style: italic;
+
+}
+
+.contato-form {
+  flex: 2 1 260px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contato-form_submit {
+  flex: 1 1 260px;
+  width: 192px;
+  font-family: 'Courier New', courier, monospace;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: rgba(226, 150, 43, 0.745);
+  color: black;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+}
+
+/*Rodapé*/
+.contatos {
+  background-color: rgb(155, 147, 170);
+  padding: 55 px calc((100%-960px) / 2);
+
+}
+
+.contatos-c {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.contatos-info_redesocial {
+  margin-right: 20px;
+  margin-top: 30px;
+
+}
+
+.contatos-info_redesocial:hover {
+  color: #320c56;
+}
+
+.contatos-info {
+  color: black;
+  padding: 20px 10px;
+
+}
+
+.contato-infor_img {
+  margin: 10px;
+}
